@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,500;0,700;1,100;1,200;1,400&family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+<hedder class="header"><div class="container">
+    <div class="row">
+    <div class="col-3"><div class="logo">
+        <a href="">
+            <img src="images/logo.png" alt="">
+        </a>
+    </div></div>
+    <div class="col-6">
+        <nav>
+            <ul class="menu">
+                <li><a href="">Home</a></li>
+                <li><a href="">Products</a>
+                    <ul class="submenu">
+                        <li class="li"><a href="">Lorem ipsum dolorelit</a></li>
+                        <li><a href="">Sit amet</a></li>
+                        <li><a href="">Consectetur adipisicing</a></li>
+                        <li><a href="">Quaerat, quidem nobis</a></li>
+                        <li><a href="">Velit possimus nemo</a></li>
+                        <li><a href="">Incidunt eligendi alias</a></li>
+                        <li><a href="">Commodi temporibus</a></li>
+                    </ul>
+                </li>
+                <li><a href="">Payment</a></li>
+                <li><a href="">Shipping</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="col-3 ">
+       <div class="form"><form class="search" action="">
+        <input class="search_form" type="text" placeholder="search" name="search" >
+        <input class="search_btn"type="button" value="">
+        </form>
+        <button  class="card"><div class="count" id="products-count">0</div></button>
+    </div>
+</div> 
+</div>
+</div></hedder>
+<div class="slider">
+    <div class="container">
+           <div class="row">
+            <div class="col-12">
+                <div class="slider-block">
+                    <div>Slider 1</div>
+                    <div>Slider 2</div>
+                    <div>Slider 3</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<main class="main">
+    <div class="container">
+            <h2 class="Home"> Home page > Products > Laptops and Tablets</h2>
+            <div class="div"> <h1>Laptops and Tablets</h1>
+        <div class="div2 dropdown">
+            <ul class="menu2">
+                <button class="dropbtn">sort by price</button>
+                <div class="dropdown-content">
+                <li><a href="">sort by name</a></li>
+                <li><a href="">sort by date</a></li>
+                <li><a href="">sort by popularity</a></li>
+            </ul>
+        </div>
+       
+   </div>
+        <div class="row1">
+        <div class="col-3 ">
+            <form class="left"action="">
+                <h3>DEVICE TYPE</h3>
+                <ul>
+                    <li  class="TYPE"><input type="checkbox" id="Laptop">
+                        <label for="Laptop">Laptop</label></li>
+                    <li  class="TYPE"><input type="checkbox" id="Tablet">
+                        <label for="Tablet">Tablet</label></li>
+                </ul>
+                <h3>COLOR</h3>
+                <ul>
+                    <li  class="TYPE" ><input type="checkbox" id="Black">
+                        <label for="Black">Black</label></li>
+                    <li  class="TYPE" ><input type="checkbox" id="Red">
+                        <label for="Red">Red</label></li>
+                    <li class="TYPE"><input type="checkbox" id="Green">
+                        <label for="Green">Green</label></li>
+                    <li class="TYPE"><input type="checkbox" id="Blue">
+                        <label for="Blue">Blue</label></li>
+                    <li class="TYPE"><input type="checkbox" id="Orange">
+                        <label for="Orange">Orange</label></li>
+                </ul>
+                <h3>RAM</h3>
+                <ul>
+                    <li class="TYPE"><input type="checkbox" id="RAM1">
+                        <label for="RAM1">1 GB</label></li>
+                    <li class="TYPE"><input type="checkbox" id="RAM2">
+                        <label for="RAM2">2 GB</label></li>
+                    <li class="TYPE"><input type="checkbox" id="RAM3">
+                        <label for="RAM3">3 GB</label></li>
+                    <li class="TYPE"><input type="checkbox" id="RAM4">
+                        <label for="RAM4">4 GB</label></li>
+                    <li class="TYPE"><input type="checkbox" id="RAM5">
+                        <label for="RAM5">5 GB</label></li>
+                </ul>
+                <button class="submit">SUBMIT</button>
+            </form>
+        </div>
+
+        <!-- колонка 1 -->
+
+<div class="col-3">
+    <div class="device" data-aos="fade-up">
+        <div class="col"></div>
+        <div class="col2"><a href="">
+            <img class="displayed" src="images/device1.png" alt="">
+        </a></div>
+        <div  class="col"><input class="heart liked" type="button" value="">
+            <input class="increase" type="button" value=""></div>
+    </div>
+    <div class="info">
+        <h2 class="name">#1 Device name</h2>
+        <p>Lorem ipsum dolor sit<br> amet consectetur,<br>
+        adipisicing elit.</p>
+        <p><span>TYPE:</span> Laptop</p>
+        <p><span>SCREEN SIZE:</span> 7 inches</p>
+        <p><span>RAM:</span> 1GB</p>
+        <h2 class="price">$599<span class="coins">25</span></h2>
+       
+        <div class="product-quantity">
+            <button class="decrement">-</button>
+            <input type="text" value="1">
+            <button class="increment">+</button>
+        </div>
+        <input class="btn1" type="button" value="MORE DETAILS">
+        <input class="btn2" type="button" value="ADD TO CARD">
+    </div>
+
+    <div class="device">
+        <div class="col"></div>
+        <div class="col2"><a href="">
+            <img class="displayed" src="images/device11.png" alt="">
+        </a></div>
+        <div  class="col"><input class="heart" type="button" value="">
+            <input class="increase" type="button" value=""></div>
+    </div>
+    <div class="info">
+            <h2 class="name">#1 Device name</h2>
+            <p>Lorem ipsum dolor sit<br> amet consectetur,<br>
+            adipisicing elit.</p>
+            <p><span>TYPE:</span> Laptop</p>
+            <p><span>SCREEN SIZE:</span> 7 inches</p>
+            <p><span>RAM:</span> 1GB</p>
+            <h2 class="price">$599<span class="coins">25</span></h2>
+
+            <input class="btn1" type="button" value="MORE DETAILS">
+            <input class="btn2" type="button" value="ADD TO CARD">
+        </div>
+    <div class="device">
+        <div class="col"></div>
+        <div class="col2"><a href="">
+            <img class="displayed" src="images/device111.png" alt="">
+        </a></div>
+        <div  class="col"><input class="heart" type="button" value="">
+            <input class="increase" type="button" value=""></div>
+    </div>
+    <div class="info">
+        <h2 class="name">#1 Device name</h2>
+        <p>Lorem ipsum dolor sit<br> amet consectetur,<br>
+        adipisicing elit.</p>
+        <p><span>TYPE:</span> Laptop</p>
+        <p><span>SCREEN SIZE:</span> 7 inches</p>
+        <p><span>RAM:</span> 1GB</p>
+        <h2 class="price">$599<span class="coins">25</span></h2>
+        <input class="btn1" type="button" value="MORE DETAILS">
+        <input class="btn2" type="button" value="ADD TO CARD">
+    </div>
+</div>
+            <!-- колонка 2 -->
+            
+<div class="col-3">
+    <div class="device" data-aos="fade-up">
+        <div class="col"></div>
+        <div class="col2"><a href="">
+            <img class="displayed" src="images/device2.png" alt="">
+        </a></div>
+        <div  class="col"><input class="heart" type="button" value="">
+            <input class="increase" type="button" value=""></div>
+    </div>
+    <div class="info">
+        <h2 class="name">#2 Device name</h2>
+        <p>Lorem ipsum dolor sit<br> amet consectetur,<br>
+        adipisicing elit.</p>
+        <p><span>TYPE:</span> Laptop</p>
+        <p><span>SCREEN SIZE:</span> 7 inches</p>
+        <p><span>RAM:</span> 1GB</p>
+        <h2 class="price">$1250<span class="coins">99</span></h2>
+        <div class="product-quantity">
+            <button class="decrement">-</button>
+            <input type="text" value="1">
+            <button class="increment">+</button>
+        </div>
+        
+        <input class="btn1" type="button" value="MORE DETAILS">
+        <input class="btn2" type="button" value="ADD TO CARD">
+    </div>
+    
+    <div class="device">
+        <div class="col"></div>
+        <div class="col2"><a href="">
+            <img class="displayed" src="images/device22.png" alt="">
+        </a></div>
+        <div  class="col"><input class="heart" type="button" value="">
+            <input class="increase" type="button" value=""></div>
+    </div>
+    <div class="info">
+        <h2 class="name">#2 Device name</h2>
+        <p>Lorem ipsum dolor sit<br> amet consectetur,<br>
+        adipisicing elit.</p>
+        <p><span>TYPE:</span> Laptop</p>
+        <p><span>SCREEN SIZE:</span> 7 inches</p>
+        <p><span>RAM:</span> 1GB</p>
+        <h2 class="price">$1250<span class="coins">99</span></h2>
+        <input class="btn1" type="button" value="MORE DETAILS">
+        <input class="btn2" type="button" value="ADD TO CARD">
+    </div>
+    <div class="device">
+        <div class="col"></div>
+        <div class="col2"><a href="">
+            <img class="displayed" src="images/device222.png" alt="">
+        </a></div>
+        <div  class="col"><input class="heart" type="button" value="">
+            <input class="increase" type="button" value=""></div>
+    </div>
+    <div class="info">
+        <h2 class="name">#2 Device name</h2>
+        <p>Lorem ipsum dolor sit<br> amet consectetur,<br>
+        adipisicing elit.</p>
+        <p><span>TYPE:</span> Laptop</p>
+        <p><span>SCREEN SIZE:</span> 7 inches</p>
+        <p><span>RAM:</span> 1GB</p>
+        <h2 class="price">$1250<span class="coins">99</span></h2>
+        <input class="btn1" type="button" value="MORE DETAILS">
+        <input class="btn2" type="button" value="ADD TO CARD">
+    </div>
+</div>
+
+        <!-- колонка 3 -->
+                
+<div class="col-3">
+    <div class="device" data-aos="fade-up">
+        <div class="col"></div>
+        <div class="col2"><a href="">
+            <img class="displayed" src="images/device3.png" alt="">
+        </a></div>
+        <div  class="col"><input class="heart" type="button" value="">
+            <input class="increase" type="button" value=""></div>
+    </div>
+    <div class="info">
+        <h2 class="name">#3 Device name</h2>
+        <p>Lorem ipsum dolor sit<br> amet consectetur,<br>
+        adipisicing elit.</p>
+        <p><span>TYPE:</span> Laptop</p>
+        <p><span>SCREEN SIZE:</span> 7 inches</p>
+        <p><span>RAM:</span> 1GB</p>
+        <h2 class="price">$399<span class="coins">50</span></h2>
+        <input class="btn1" type="button" value="MORE DETAILS">
+        <input class="btn2" type="button" value="ADD TO CARD">
+    </div>
+        
+    <div class="device">
+        <div class="col"></div>
+        <div class="col2"><a href="">
+            <img class="displayed" src="images/device33.png" alt="">
+        </a></div>
+        <div  class="col"><input class="heart" type="button" value="">
+            <input class="increase" type="button" value=""></div>
+    </div>
+    <div class="info">
+        <h2 class="name">#3 Device name</h2>
+        <p>Lorem ipsum dolor sit<br> amet consectetur,<br>
+        adipisicing elit.</p>
+        <p><span>TYPE:</span> Laptop</p>
+        <p><span>SCREEN SIZE:</span> 7 inches</p>
+        <p><span>RAM:</span> 1GB</p>
+        <h2 class="price">$399<span class="coins">50</span></h2>
+        <input class="btn1" type="button" value="MORE DETAILS">
+        <input class="btn2" type="button" value="ADD TO CARD">
+    </div>
+    <div class="device">
+        <div class="col"></div>
+        <div class="col2"><a href="">
+            <img class="displayed" src="images/device333.png" alt="">
+        </a></div>
+        <div  class="col"><input class="heart" type="button" value="">
+            <input class="increase" type="button" value=""></div>
+    </div>
+    <div class="info">
+        <h2 class="name">#3 Device name</h2>
+        <p>Lorem ipsum dolor sit<br> amet consectetur,<br>
+        adipisicing elit.</p>
+        <p><span>TYPE:</span> Laptop</p>
+        <p><span>SCREEN SIZE:</span> 7 inches</p>
+        <p><span>RAM:</span> 1GB</p>
+        <h2 class="price">$399<span class="coins">50</span></h2>
+        <input class="btn1" type="button" value="MORE DETAILS">
+        <input class="btn2" type="button" value="ADD TO CARD">
+    </div>    
+</div>
+                  
+
+    </div>
+</main>
+<footer class="footer"><p class="foo">Copyright 2017</p></footer>
+<div class="modal">
+    <div class="modal-block">
+        <form action="" >
+            <div class="btn-close-wrap">
+                <div class="btn-close">X</div>
+            </div>
+            
+            <h2>Please call for more details</h2>
+            <div class="form-field">
+                <input type="text" placeholder="Your name">
+            </div>
+            <div class="form-field">
+                <input type="text" placeholder="Your phone">
+            </div>
+            <button class="Please_call">Please call</button>
+        </form>
+    </div>
+</div>
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
